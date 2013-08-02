@@ -1,0 +1,17 @@
+C:\Users\30071158\documents\visual studio 2012\Projects\dsServer\dsService\bin\dsService.dll
+C:\Users\30071158\documents\visual studio 2012\Projects\dsServer\dsService\bin\dsService.pdb
+C:\Users\30071158\documents\visual studio 2012\Projects\dsServer\dsService\obj\Debug\dsService.dll
+C:\Users\30071158\documents\visual studio 2012\Projects\dsServer\dsService\obj\Debug\dsService.pdb
+C:\Users\30071158\documents\visual studio 2012\Projects\dsServer\dsService\bin\Premotion.AspNet.AppHarbor.Integration.dll
+C:\Users\30071158\documents\visual studio 2012\Projects\dsServer\dsService\bin\Premotion.AspNet.AppHarbor.Integration.pdb
+C:\Users\30071158\documents\visual studio 2012\Projects\dsServer\dsService\bin\Premotion.AspNet.AppHarbor.Integration.xml
+C:\Users\30071158\documents\visual studio 2012\Projects\dsServer\dsService\obj\Debug\dsService.csprojResolveAssemblyReference.cache
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\dsService.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\dsService.pdb
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\Premotion.AspNet.AppHarbor.Integration.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\Premotion.AspNet.AppHarbor.Integration.pdb
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\Premotion.AspNet.AppHarbor.Integration.xml
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\obj\Debug\dsService.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\obj\Debug\dsService.pdb
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\obj\Debug\dsService.csprojResolveAssemblyReference.cache
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\System.ServiceModel.PollingDuplex.dll

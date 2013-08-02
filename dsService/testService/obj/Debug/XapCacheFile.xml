@@ -1,0 +1,7 @@
+﻿<xapCache source="C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\testService\Bin\Debug\testService.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="8/2/2013 1:22:53 AM">
+  <file source="C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\testService\obj\Debug\testService.dll" archivePath="testService.dll" lastWriteTime="8/2/2013 1:22:52 AM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ServiceModel.Extensions.dll" archivePath="System.ServiceModel.Extensions.dll" lastWriteTime="3/9/2011 11:08:16 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ServiceModel.PollingDuplex.dll" archivePath="System.ServiceModel.PollingDuplex.dll" lastWriteTime="3/9/2011 11:08:16 PM" />
+  <file source="C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\testService\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="5/4/2013 6:00:28 PM" />
+  <file source="C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\testService\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="5/5/2013 2:00:35 PM" />
+</xapCache>

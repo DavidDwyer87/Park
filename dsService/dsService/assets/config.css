@@ -1,0 +1,50 @@
+﻿body {
+}
+
+#master {
+    margin:0px auto;
+    margin-top:30px;   
+    max-width:1200px;
+    width:1024px;
+}
+
+#head h1 {
+    text-align:center;
+}
+
+#signup {
+    background-color:#FCF5D8;
+    color:#AD8C08;
+    width:440px;
+}
+
+#email,#pass {
+    width:435px;
+}
+
+#main-content {
+    margin-top:40px;
+}
+
+#agree {
+    color:#0094ff;
+    text-decoration:none;
+}
+
+#suBtn {
+    width:400px;
+}
+
+#c-left {
+    width:600px;
+}
+
+#c-right {
+}
+
+#footer {
+    background-color:rgba(109, 109, 109, 0.60);
+    max-height:500px;
+}
+
+

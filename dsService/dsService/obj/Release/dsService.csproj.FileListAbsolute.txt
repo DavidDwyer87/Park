@@ -1,0 +1,8 @@
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\dsService.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\dsService.pdb
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\Premotion.AspNet.AppHarbor.Integration.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\System.ServiceModel.PollingDuplex.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\Premotion.AspNet.AppHarbor.Integration.pdb
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\Premotion.AspNet.AppHarbor.Integration.xml
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\obj\Release\dsService.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\obj\Release\dsService.pdb
