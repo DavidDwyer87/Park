@@ -1,0 +1,6 @@
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\Park\Park\obj\Debug\Park.csprojResolveAssemblyReference.cache
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\Park\Park\bin\Park.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\Park\Park\bin\Park.pdb
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\Park\Park\obj\Debug\Park.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\Park\Park\obj\Debug\Park.pdb
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\Park\Park\bin\System.ServiceModel.PollingDuplex.dll
