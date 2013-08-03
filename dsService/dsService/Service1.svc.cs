@@ -27,7 +27,7 @@ namespace dsService
         public void Subscribe(string roomName)
         {
             if (client.ContainsKey(roomName))
-                client["hello"].Add(OperationContext.Current.GetCallbackChannel<ICallBack>());
+                client[roomName].Add(OperationContext.Current.GetCallbackChannel<ICallBack>());
             else
             {
                 client.Add(roomName, new SynchronizedCollection<ICallBack>());
