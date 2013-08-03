@@ -22,6 +22,20 @@ namespace dsService
     public class Service1
     {
         Dictionary<string, SynchronizedCollection<ICallBack>> client = new Dictionary<string, SynchronizedCollection<ICallBack>>();
+        int i = 0;
+        public Service1()
+        {
+            while (true)
+            {
+               foreach(string roomName in client.Keys)
+               {
+                    foreach (ICallBack ic in client[roomName])
+                    {
+                        ic.CallBack(""+i++);                        
+                    }
+               }
+            }
+        }
 
         [OperationContract]
         public void Subscribe(string roomName)
