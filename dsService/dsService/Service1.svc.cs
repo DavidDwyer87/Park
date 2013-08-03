@@ -6,6 +6,7 @@ using System.ServiceModel;
 using System.ServiceModel.Activation;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Threading;
 
 namespace dsService
 {
@@ -21,44 +22,34 @@ namespace dsService
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     public class Service1
     {
-        Dictionary<string, SynchronizedCollection<ICallBack>> client = new Dictionary<string, SynchronizedCollection<ICallBack>>();
+        //Dictionary<string, SynchronizedCollection<ICallBack>> client = new Dictionary<string, SynchronizedCollection<ICallBack>>();
         int i = 0;
+        SynchronizedCollection<ICallBack> client = new SynchronizedCollection<ICallBack>();
+
         public Service1()
         {
-            while (true)
-            {
-               foreach(string roomName in client.Keys)
-               {
-                    foreach (ICallBack ic in client[roomName])
-                    {
-                        ic.CallBack(""+i++);                        
-                    }
-               }
-            }
+           
         }
 
         [OperationContract]
-        public void Subscribe(string roomName)
+        public void Subscribe()
         {
-            if (client.ContainsKey(roomName))
-                client[roomName].Add(OperationContext.Current.GetCallbackChannel<ICallBack>());
-            else
+            if (!client.Contains(OperationContext.Current.GetCallbackChannel<ICallBack>()))
+                client.Add(OperationContext.Current.GetCallbackChannel<ICallBack>());
+            /*else
             {
                 client.Add(roomName, new SynchronizedCollection<ICallBack>());
                 client[roomName].Add(OperationContext.Current.GetCallbackChannel<ICallBack>());
-            }
+            }*/
         }
 
         [OperationContract]
-        public void Publish(string roomName, string message)
-        {
-            if (client.ContainsKey(roomName))
-                foreach (ICallBack ic in client[roomName])
+        public void Publish(string message)
+        {           
+                foreach (ICallBack ic in client)
                 {
                     ic.CallBack(message);
                 }
-        }
-
-        // Add more operations here and mark them with [OperationContract]
+        }        
     }
 }
