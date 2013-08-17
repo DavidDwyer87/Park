@@ -20,7 +20,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
-    <SilverlightApplicationList>{E028C11C-3AD9-4FC1-8594-43A8FE97AC45}|..\testService\testService.csproj|ClientBin|False</SilverlightApplicationList>
+    <SilverlightApplicationList>
+    </SilverlightApplicationList>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,6 +45,9 @@
     <Reference Include="Premotion.AspNet.AppHarbor.Integration">
       <HintPath>..\packages\Premotion.AspNet.AppHarbor.Integration.0.5.0\lib\net40\Premotion.AspNet.AppHarbor.Integration.dll</HintPath>
     </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.104.1\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System.ServiceModel.PollingDuplex, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Premotion.AspNet.AppHarbor.Integration.0.5.0\lib\net20\System.ServiceModel.PollingDuplex.dll</HintPath>
@@ -65,77 +69,27 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="Twilio.Api">
+      <HintPath>..\packages\Twilio.3.5.17\lib\3.5\Twilio.Api.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\config.css" />
-    <Content Include="assets\Image\1367926539_sign-in.png" />
-    <Content Include="assets\microsoft\css\bootstrap-responsive.min.css" />
-    <Content Include="assets\microsoft\css\bootstrap.min.css" />
-    <Content Include="assets\microsoft\css\m-buttons.css" />
-    <Content Include="assets\microsoft\css\m-buttons.min.css" />
-    <Content Include="assets\microsoft\css\m-forms.css" />
-    <Content Include="assets\microsoft\css\m-forms.min.css" />
-    <Content Include="assets\microsoft\css\m-icons.css" />
-    <Content Include="assets\microsoft\css\m-icons.min.css" />
-    <Content Include="assets\microsoft\css\m-normalize.css" />
-    <Content Include="assets\microsoft\css\m-normalize.min.css" />
-    <Content Include="assets\microsoft\css\m-styles.min.css" />
-    <Content Include="assets\microsoft\css\styles.css" />
-    <Content Include="assets\microsoft\img\bootstrap.png" />
-    <Content Include="assets\microsoft\img\cross.png" />
-    <Content Include="assets\microsoft\img\glyphicons-halflings-white.png" />
-    <Content Include="assets\microsoft\img\glyphicons-halflings.png" />
-    <Content Include="assets\microsoft\img\need.png" />
-    <Content Include="assets\microsoft\img\share.png" />
-    <Content Include="assets\microsoft\img\starrynight.png" />
-    <Content Include="assets\microsoft\img\syncfusion-icons-white.png" />
-    <Content Include="assets\microsoft\img\syncfusion-icons.png" />
-    <Content Include="assets\microsoft\js\bootstrap.min.js" />
-    <Content Include="assets\microsoft\js\google-code-prettify\prettify.css" />
-    <Content Include="assets\microsoft\js\google-code-prettify\prettify.js" />
-    <Content Include="assets\microsoft\js\jquery-1.8.0.min.js" />
-    <Content Include="assets\microsoft\js\m-dropdown.js" />
-    <Content Include="assets\microsoft\js\m-dropdown.min.js" />
-    <Content Include="assets\microsoft\js\m-radio.js" />
-    <Content Include="assets\microsoft\js\m-radio.min.js" />
     <Content Include="clientaccesspolicy.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="ClientBin\testService.xap" />
     <Content Include="crossdomain.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Default.aspx" />
     <Content Include="Service1.svc" />
-    <Content Include="Silverlight.js" />
-    <Content Include="testServiceTestPage.aspx" />
-    <Content Include="testServiceTestPage.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DequeueAsyncResult.cs" />
-    <Compile Include="MServiceModel\DuplexHeader.cs" />
-    <Compile Include="MServiceModel\IPollingDuplex.cs" />
-    <Compile Include="MServiceModel\MakeConnection.cs" />
-    <Compile Include="MServiceModel\PollingDuplexSession.cs" />
-    <Compile Include="MServiceModel\PollingDuplexSessionExtensions.cs" />
-    <Compile Include="Notification.cs" />
-    <Compile Include="NotificationData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>
-    <Compile Include="Session.cs" />
-    <Compile Include="SynchronizedQueue.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

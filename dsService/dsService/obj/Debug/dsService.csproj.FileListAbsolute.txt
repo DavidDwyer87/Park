@@ -15,3 +15,8 @@ C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\obj\De
 C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\obj\Debug\dsService.pdb
 C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\obj\Debug\dsService.csprojResolveAssemblyReference.cache
 C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\System.ServiceModel.PollingDuplex.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\RestSharp.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\Twilio.Api.dll
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\RestSharp.xml
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\Twilio.Api.pdb
+C:\Users\Bishop\Documents\Visual Studio 2012\Projects\dsService\dsService\bin\Twilio.Api.xml
