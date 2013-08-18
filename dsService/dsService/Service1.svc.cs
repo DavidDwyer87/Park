@@ -226,6 +226,7 @@ namespace dsService
             }
         }      
         
+        [OperationContract]
         public void shuffle(string roomName)
         {
             try
